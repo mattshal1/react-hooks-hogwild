@@ -27,7 +27,7 @@ body {
 }
 
 .headerText {
-  color: #F5A9BC;
+  color: #f5a9bc;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
 }
@@ -35,18 +35,18 @@ body {
 .largeHeader {
   font-size: 3.5em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #3b0b0b;
 }
 
 .smallHeader {
   font-size: 1.75em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #3b0b0b;
 }
 
 .normalText {
   font-family: Georgia, serif;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .hoggyText {
@@ -64,29 +64,27 @@ ul {
 
 .normalText ul {
   font-family: Georgia, serif;
-  font-size: .75em;
+  font-size: 0.75em;
   text-align: left;
 }
 
 .subtleText {
-  color: #D1D1D1;
-  font-size: .75em;
+  color: #d1d1d1;
+  font-size: 0.75em;
 }
-
 
 .indexWrapper {
   margin: auto;
 }
-
 
 .pigTile {
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
-  margin: 2%;
-  padding: 1%;
-  outline: #3B0B0B dotted thick;
+  margin: 3rem 2rem !important;
+  padding: 1rem !important;
+  outline: #3b0b0b dotted thick;
   transition: 0.75s;
   opacity: 1;
 }
@@ -109,7 +107,7 @@ ul {
 }
 
 .pigTile h3 {
-  color: #FBB;
+  color: #fbb;
 }
 
 .minPigTile {
@@ -128,18 +126,16 @@ ul {
   transform: scale(1.05);
 }
 
-
 .App-logo {
   animation: App-logo-spin infinite 5s linear;
   height: 80px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer {
   padding: 1%;
   clear: both;
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -149,4 +145,44 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 25rem;
+  aspect-ratio: 4/3;
+}
+form {
+  margin: 0 20rem;
+  font-size: x-large;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 2px dashed #9c9c9c;
+  padding: 2rem 5rem;
+}
+input {
+  margin: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px dashed #c5c5c5;
+}
+form div {
+  width: 106%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+button {
+  padding: 0.8rem;
+  margin-inline-end: 2rem;
+  border-radius: 1rem;
+  font-size: x-large;
+  border: none;
+  border-bottom: 2px dashed #ff8585;
+  border-right: 2px dashed #ff8484;
+  border-top: 2px dashed #ff8080;
+  border-left: 2px dashed #ff8585;
+  background: lightpink;
+  color: #fff;
+  text-shadow: 2px 1px #ff0e0e;
 }
